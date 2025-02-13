@@ -40,7 +40,7 @@ public class AltTestLogin
         altDriver.Tap(PassInputField.GetScreenPosition());
         Thread.Sleep(500);
         PassInputField.SetText("Aa123123!@#");
-        TestPassWordObfuscate("Aa123123!@#");
+        TestPassWordObfuscate();
         Thread.Sleep(500);
         LoginBtn = altDriver.FindObject(By.NAME, "BtnLogin");
         altDriver.Tap(LoginBtn.GetScreenPosition());
@@ -72,7 +72,7 @@ public class AltTestLogin
         altDriver.Tap(PassInputField.GetScreenPosition());
         Thread.Sleep(500);
         PassInputField.SetText("Aa123123!@#");
-        TestPassWordObfuscate("Aa123123!@#");
+        TestPassWordObfuscate();
         Thread.Sleep(500);
         LoginBtn = altDriver.FindObject(By.NAME, "BtnLogin");
         altDriver.Tap(LoginBtn.GetScreenPosition());
@@ -110,7 +110,7 @@ public class AltTestLogin
             randomPass = randomString();
         }
         PassInputField.SetText(randomPass);
-        TestPassWordObfuscate(randomPass);
+        TestPassWordObfuscate();
         Thread.Sleep(500);
         LoginBtn = altDriver.FindObject(By.NAME, "BtnLogin");
         altDriver.Tap(LoginBtn.GetScreenPosition());
@@ -146,7 +146,7 @@ public class AltTestLogin
             randomPass = randomString();
         }
         PassInputField.SetText(randomPass);
-        TestPassWordObfuscate(randomPass);
+        TestPassWordObfuscate();
         Thread.Sleep(500);
         LoginBtn = altDriver.FindObject(By.NAME, "BtnLogin");
         altDriver.Tap(LoginBtn.GetScreenPosition());
@@ -172,17 +172,20 @@ public class AltTestLogin
         return new string(stringChars);
     }
 
-    public bool TestPassWordObfuscate(string pass) {
+    public void TestPassWordObfuscate() {
         bool onlyAsterisks = true;
-        for (int i = 0; i < pass.Length; i++)
+        var PassTextField = altDriver.FindObject(By.PATH, "//IpfPassword/TextArea/Text");
+        string pass = PassTextField.GetText();
+        for (int i = 0; i < pass.Length-1; i++)
         {
             if (pass[i] != '*')
             {
-                Console.WriteLine($"Non-asterisk character '{pass[i]}' found at position {i}");
+                Debug.Log($"Non-asterisk character '{pass[i]}' found at position {i}");
                 onlyAsterisks = false;
             }
         }
-        return onlyAsterisks;
+        Assert.IsTrue(onlyAsterisks);
+        
     }
     [OneTimeTearDown]
     public void TearDown()
