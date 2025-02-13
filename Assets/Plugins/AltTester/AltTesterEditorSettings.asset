@@ -18,7 +18,7 @@ MonoBehaviour:
   XcrunPath: /usr/bin/xcrun
   MyTests:
   - _selected: 0
-    _testName: C:/Users/taipham93hk/Documents/GitHub/QA-Automation-Test-Project/Library/ScriptAssemblies/AltTester.AltTesterUnitySDK.Editor.dll
+    _testName: C:/Users/taipham93hk/Documents/GitHub/QA-Automation-Result/Library/ScriptAssemblies/AltTester.AltTesterUnitySDK.Editor.dll
     _testAssembly: AltTester.AltTesterUnitySDK.Editor
     _status: 0
     _isSuite: 1
@@ -37,7 +37,7 @@ MonoBehaviour:
     _status: 0
     _isSuite: 1
     _type: NUnit.Framework.Internal.TestFixture
-    _parentName: C:/Users/taipham93hk/Documents/GitHub/QA-Automation-Test-Project/Library/ScriptAssemblies/AltTester.AltTesterUnitySDK.Editor.dll
+    _parentName: C:/Users/taipham93hk/Documents/GitHub/QA-Automation-Result/Library/ScriptAssemblies/AltTester.AltTesterUnitySDK.Editor.dll
     _testCaseCount: 4
     _foldOut: 1
     _testResultMessage: 
@@ -90,20 +90,19 @@ MonoBehaviour:
   - _selected: 1
     _testName: AltTestLogin.LoginSuccess
     _testAssembly: AltTester.AltTesterUnitySDK.Editor
-    _status: -1
+    _status: 1
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: AltTestLogin
     _testCaseCount: 1
     _foldOut: 1
-    _testResultMessage: 'OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.ConnectionTimeoutException
-      : Failed to connect to AltTester(R) Server on host: 127.0.0.1 port: 13000.'
+    _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 0
+    _testDuration: 5.4099576
     path: Assets/4.ThirdParties/AltTester/Editor/Scripts/AltTesterEditor/AltTestLogin.cs
     _testSelectedCount: 0
   - _selected: 0
-    _testName: C:/Users/taipham93hk/Documents/GitHub/QA-Automation-Test-Project/Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll
+    _testName: C:/Users/taipham93hk/Documents/GitHub/QA-Automation-Result/Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll
     _testAssembly: Unity.InputSystem.IntegrationTests
     _status: 0
     _isSuite: 1
@@ -122,7 +121,7 @@ MonoBehaviour:
     _status: 0
     _isSuite: 1
     _type: NUnit.Framework.Internal.TestFixture
-    _parentName: C:/Users/taipham93hk/Documents/GitHub/QA-Automation-Test-Project/Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll
+    _parentName: C:/Users/taipham93hk/Documents/GitHub/QA-Automation-Result/Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll
     _testCaseCount: 4
     _foldOut: 0
     _testResultMessage: 
@@ -187,7 +186,7 @@ MonoBehaviour:
     path: Packages/com.unity.inputsystem/Tests/IntegrationTests
     _testSelectedCount: 0
   - _selected: 1
-    _testName: C:/Users/taipham93hk/Documents/GitHub/QA-Automation-Test-Project/Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll
+    _testName: C:/Users/taipham93hk/Documents/GitHub/QA-Automation-Result/Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll
     _testAssembly: Unity.InputSystem.TestFramework
     _status: 0
     _isSuite: 1
@@ -201,7 +200,7 @@ MonoBehaviour:
     path: 
     _testSelectedCount: 0
   - _selected: 1
-    _testName: C:/Users/taipham93hk/Documents/GitHub/QA-Automation-Test-Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+    _testName: C:/Users/taipham93hk/Documents/GitHub/QA-Automation-Result/Library/ScriptAssemblies/Unity.Rider.Editor.dll
     _testAssembly: Unity.Rider.Editor
     _status: 0
     _isSuite: 1
@@ -215,7 +214,7 @@ MonoBehaviour:
     path: 
     _testSelectedCount: 0
   - _selected: 1
-    _testName: C:/Users/taipham93hk/Documents/GitHub/QA-Automation-Test-Project/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
+    _testName: C:/Users/taipham93hk/Documents/GitHub/QA-Automation-Result/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
     _testAssembly: Unity.TestTools.CodeCoverage.Editor
     _status: 0
     _isSuite: 1
@@ -229,7 +228,7 @@ MonoBehaviour:
     path: 
     _testSelectedCount: 0
   - _selected: 1
-    _testName: C:/Users/taipham93hk/Documents/GitHub/QA-Automation-Test-Project/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+    _testName: C:/Users/taipham93hk/Documents/GitHub/QA-Automation-Result/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
     _testAssembly: Unity.VisualStudio.Editor
     _status: 0
     _isSuite: 1
@@ -243,7 +242,7 @@ MonoBehaviour:
     path: 
     _testSelectedCount: 0
   - _selected: 1
-    _testName: C:/Users/taipham93hk/Documents/GitHub/QA-Automation-Test-Project/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+    _testName: C:/Users/taipham93hk/Documents/GitHub/QA-Automation-Result/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
     _testAssembly: UnityEditor.TestRunner
     _status: 0
     _isSuite: 1
@@ -257,7 +256,7 @@ MonoBehaviour:
     path: 
     _testSelectedCount: 0
   - _selected: 1
-    _testName: C:/Users/taipham93hk/Documents/GitHub/QA-Automation-Test-Project/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+    _testName: C:/Users/taipham93hk/Documents/GitHub/QA-Automation-Result/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
     _testAssembly: UnityEngine.TestRunner
     _status: 0
     _isSuite: 1
@@ -276,16 +275,16 @@ MonoBehaviour:
     _buildIndex: 0
   - _toBeBuilt: 1
     _path: Assets/3.Scenes/Taggle.Login.unity
-    _buildIndex: 0
+    _buildIndex: 1
   - _toBeBuilt: 1
     _path: Assets/3.Scenes/Taggle.Login.UserName.unity
-    _buildIndex: 0
+    _buildIndex: 2
   - _toBeBuilt: 1
     _path: Assets/3.Scenes/Taggle.HomePage.unity
-    _buildIndex: 0
-  platform: 0
+    _buildIndex: 3
+  platform: 2
   StandaloneTarget: 5
-  RanInEditor: 0
+  RanInEditor: 1
   ScenePathDisplayed: 0
   BuildLocationPath: C:/Users/taipham93hk/Documents/GitHub/QA-Automation-Test-Project
   createXMLReport: 1

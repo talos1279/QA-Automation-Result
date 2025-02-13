@@ -13,8 +13,8 @@ public class AltTestLogin
     public void SetUp()
     {
         altDriver = new AltDriver(appName: "TestingProject");
-        //altDriver = new AltDriver(host: "192.168.0.195", port: 13090, appName: "TestingProject");
-        //AltReversePortForwarding.ReversePortForwardingAndroid();
+        //altDriver = new AltDriver(host: "192.168.0.195", port: 13000, appName: "TestingProject");
+        AltReversePortForwarding.ReversePortForwardingAndroid();
     }
 
     //Write your tet case for login here
@@ -161,7 +161,7 @@ public class AltTestLogin
     {
         const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=";
         System.Random random = new System.Random();
-        int length = random.Next(8, 21); // Random length between 8 and 20
+        int length = random.Next(1, 21); // Random length between 1 and 20
 
         char[] stringChars = new char[length];
         for (int i = 0; i < length; i++)
